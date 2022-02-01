@@ -10,10 +10,16 @@ html {
 body {
   max-width: 320px;
   margin: auto;
+  background-color: rgb(0, 0, 0);
 }
 
 img {
   width: 320px;
 }
 
+/* header */
 
+h1 {
+  font-family: 'montserrat', sans-serif;
+  color: white;
+}

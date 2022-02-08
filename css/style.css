@@ -10,7 +10,7 @@ html {
 body {
   max-width: 320px;
   margin: auto;
-  background-color: white;
+  background-color: black;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400px;
 }
@@ -23,7 +23,7 @@ img {
 /* header */
 header {
   border: 2px solid white;
-  margin: 20px;
+  margin: 20px 0px;
   background-image: url('../img/header-fond.jpg');
   padding: 0px 30px;
 }
@@ -38,27 +38,110 @@ header h1 {
 
 h1 em {
   font-weight: 100px;
-  color: green;
+  color: #2afca6;
 }
 
 .sous-titre {
   color: white;
   margin: 20px 0px 50px;
+  line-height: 22px;
 }
 
 /* main */
 
 main {
-  margin: 20px;
+  margin: 20px 0px 0px;
 }
 
 .presentation {
-  background-color: green;
-  padding: 15px 30px;
+  background-color: #2afca6;
+  padding: 16px 30px;
 }
 
 .presentation h2 {
   font-family: 'montserrat', sans-serif;
   font-size: 16px;
   font-weight: 800;
+}
+
+.presentation p {
+  margin: 20px 0px 31px;
+  line-height: 22px;
+}
+
+article {
+  background-color: white;
+  padding: 15px 30px;
+  margin-top: 20px;
+}
+
+article h1 {
+  font-family: 'montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+}
+
+.article-meta {
+  font-size: 12px;
+  margin-top: 20px;
+  color: #a0a0a0;
+}
+
+.date {
+  color: black;
+}
+
+.auteur {
+  color: #2afca6;
+}
+
+.text {
+ font-size: 16px;
+ line-height: 22px;
+}
+
+figure {
+  margin: 0px 0px 32px;
+  box-shadow: 2px  2px 2px 2px gray;
+}
+
+img {
+  width: 260px;
+}
+
+figcaption {
+  font-size: 12px;
+  margin: 5px 10px;
+  height: 40px;
+}
+
+button {
+  margin: 0px 0px 16px;
+  background-color: black;
+  border-style: none;
+  height: 23px;
+  width: 90px;
+}
+
+button a {
+   color: white;
+   margin: 5px;
+   text-decoration: none;
+   font-size: 10px;
+   font-weight: 800;
+   font-family: 'montserrat', sans-serif;
+}
+
+/* footer */
+
+footer {
+  border: 2px solid #2afca6;
+  height: 45px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 15px;
 }

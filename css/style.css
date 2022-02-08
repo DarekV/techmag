@@ -10,16 +10,55 @@ html {
 body {
   max-width: 320px;
   margin: auto;
-  background-color: rgb(0, 0, 0);
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400px;
 }
 
 img {
   width: 320px;
 }
 
-/* header */
 
-h1 {
+/* header */
+header {
+  border: 2px solid white;
+  margin: 20px;
+  background-image: url('../img/header-fond.jpg');
+  padding: 0px 30px;
+}
+
+header h1 {
   font-family: 'montserrat', sans-serif;
   color: white;
+  font-weight: 800px;
+  margin-top: 50px;
+  font-size: 26px;
+}
+
+h1 em {
+  font-weight: 100px;
+  color: green;
+}
+
+.sous-titre {
+  color: white;
+  margin: 20px 0px 50px;
+}
+
+/* main */
+
+main {
+  margin: 20px;
+}
+
+.presentation {
+  background-color: green;
+  padding: 15px 30px;
+}
+
+.presentation h2 {
+  font-family: 'montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 800;
 }

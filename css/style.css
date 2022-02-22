@@ -149,13 +149,16 @@ footer p {
 /* article */
 
 
-
-.article-figcaption {
-  height: 20px;
+.page {
+  padding-top: 30px;
 }
 
-.article-page {
-  padding-top: 30px;
+.page figcaption {
+  height: 22px;
+}
+
+.page .text {
+  margin-top: 20px;
 }
 
 .button {
